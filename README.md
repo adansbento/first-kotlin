@@ -13,7 +13,7 @@ POST localhost:8080/user
 
 Update User
 ---
-PUT localhost:8080/user
+PUT localhost:8080/use/{userID}
 {
 	"name":"WWWWWWWWWWWW",
 	"document": "XXXXXXXXX"
