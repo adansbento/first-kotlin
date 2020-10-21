@@ -2,7 +2,7 @@
 Simple CRUD User
 
 
-Create user
+## Create user
 ---
 POST localhost:8080/user
 {
@@ -11,7 +11,7 @@ POST localhost:8080/user
 }
 -- -
 
-Update User
+## Update User
 ---
 PUT localhost:8080/use/{userID}
 {
@@ -22,13 +22,13 @@ PUT localhost:8080/use/{userID}
 ---
 
 
-Delete User
+## Delete User
 ---
 DELETE localhost:8080/user/{userID}}
 
 ---
 
-Find by userId
+## Find by userId
 ---
 GET localhost:8080/user/{userID}}
 
